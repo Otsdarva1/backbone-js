@@ -44,6 +44,5 @@ var taskView = new TaskView({ model: task });
 console.log(taskView.render().el);
 //console.log(taskView.$el);        $をつけるとjQueryのオブジェクトになる
 
-
 $('body').append(taskView.render().el);
 })();
